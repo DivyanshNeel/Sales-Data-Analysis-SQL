@@ -135,6 +135,7 @@ group by country
 order by count(country) desc
 LIMIT 5;
 
+
 SELECT price, payment_type,
      CASE
          WHEN payment_type = 'Mastercard' THEN 'Discount of 250'
