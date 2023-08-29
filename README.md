@@ -1,2 +1,2 @@
-# basic_sales_analysis
-Using SQL to do basic analysis of a basic sales data
+Sales-Data-Analysis-SQL
+SQL queries for sales data analysis using SELECT statements, showcasing product insights, country-wise sales, and payment discounts.
