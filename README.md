@@ -1,6 +1,6 @@
 # SQL Data Analysis Project
 
-SQL Data Analysis project repository! This project involves analyzing sales data using SQL queries to gain basic insights into product overview, sales, price, payment and discount. 
+SQL Data Analysis project repository! This project involves analyzing sales data using SQL queries in postgreSQL to gain basic insights into product overview, sales, price, payment and discount. 
 
 ## Queries and Analysis
 
