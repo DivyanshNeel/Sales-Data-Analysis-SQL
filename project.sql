@@ -118,7 +118,7 @@ INSERT INTO sales(transaction_date,product,price,payment_type,name,city,state,co
 
 SELECT * from sales;
 
-SELECT product, COUNT(product) AS No_products, MIN(price) AS min_price, MAX(price) AS max_price, AVG(price) AS avg_price, SUM(price) AS total_price from sales
+SELECT distinct product, COUNT(product) AS No_products, MIN(price) AS min_price, MAX(price) AS max_price, AVG(price) AS avg_price, SUM(price) AS total_price from sales
 GROUP BY product
 ORDER BY total_price DESC;
 
